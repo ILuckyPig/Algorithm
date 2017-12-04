@@ -1,5 +1,11 @@
 package com.lu.widesearch;
 
+/**
+ * 广搜
+ * 素数1033——>8179最短路径
+ * 每次只能变换一位数字且变换后的数字必须是素数
+ */
+
 import java.util.Queue;
 import java.util.concurrent.ArrayBlockingQueue;
 
