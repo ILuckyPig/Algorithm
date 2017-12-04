@@ -1,4 +1,4 @@
-package com.lu.quicksort;
+package com.lu.sort;
 
 import java.util.ArrayList;
 import java.util.Collections;
