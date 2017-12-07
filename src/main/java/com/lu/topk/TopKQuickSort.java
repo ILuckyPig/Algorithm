@@ -1,6 +1,6 @@
 package com.lu.topk;
 
-import com.lu.quicksort.QuickSortUtils;
+import com.lu.sort.QuickSortUtils;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
