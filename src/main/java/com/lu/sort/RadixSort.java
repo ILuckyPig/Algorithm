@@ -1,11 +1,15 @@
 package com.lu.sort;
 
-
+/**
+ * 基数排序
+ */
 public class RadixSort {
     public static void main(String[] args) {
         int[] list = {50, 123, 543, 187, 49, 30, 0, 2, 11, 100};
+        System.out.print("排序前：");
         printAll(list);
         sort(list);
+        System.out.print("排序后：");
         printAll(list);
     }
 
@@ -53,6 +57,8 @@ public class RadixSort {
             for (i = begin, j = 0; i <= end; i++, j++) {
                 list[i] = bucket[j];
             }
+            System.out.printf("第%s次后：", d);
+            printAll(list);
         }
     }
 
